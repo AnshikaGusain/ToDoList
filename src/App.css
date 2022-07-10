@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  background-color: #9fc9e5;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.top{
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  text-align: center;
+  margin:20px;
+  margin-left:50%;
+  color:white;
+  background-color: rgb(54, 115, 196);
+  border-radius: 5px;
+  border: 2px solid white;
+}
+.search{
+  width:30vw;
+  float:right;
+  margin:10px;
+}
+.title, .due{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+.add{
+  display:flex;
+  justify-content: center;
+}
+
+.value ,.desc{
+  font-weight: bold;
+}
+
+.desc{
+  /* background-color: black; */
+  width:50vw;
+  margin:10px auto;
+  
+}
+
+.container{
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.input, .duedate{
+  margin:10px;
+  /* padding:2px; */
+}
+
+.button{
+  text-align: center;
+}
+
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
 }
