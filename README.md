@@ -33,3 +33,9 @@ sorter, filter
 #Components used-
 
 Table, Button,Tag ,Input, Modal,EditOutlined, DeleteOutlined
+
+
+
+#To run the code use the following command 
+
+npm run start
