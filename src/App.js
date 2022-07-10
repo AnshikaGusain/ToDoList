@@ -17,7 +17,7 @@ const App = ()=>{
       description: "Submitting File",
       duedate: "2022-07-11",
       status: "Working",
-      tags: ["Progress","Improvement"],
+      tags: ["progress","Improvement"],
       key:"1"
     },
     {
@@ -27,7 +27,7 @@ const App = ()=>{
       description: "Submitting Assignment",
       duedate: "2022-07-10",
       status: "Working",
-      tags: ["Progress","nice"],
+      tags: ["progress","nice"],
       key:"2"
     },
     {
@@ -37,7 +37,7 @@ const App = ()=>{
       description: "Submitting Assignment",
       duedate: "2022-07-13",
       status: "Working",
-      tags: ["Progress","nice"],
+      tags: ["progress","nice"],
       key:"3"
     },
     {
@@ -47,7 +47,7 @@ const App = ()=>{
       description: "Submitting Assignment",
       duedate: "2022-07-13",
       status: "Open",
-      tags: ["Progress","nice"],
+      tags: ["progress","nice"],
       key:"4"
     },
     {
@@ -57,7 +57,7 @@ const App = ()=>{
       description: "Submitting Assignment",
       duedate: "2022-07-14",
       status: "Done",
-      tags: ["Progress","nice"],
+      tags: ["progress","nice"],
       key:"5"
     },
     {
@@ -67,7 +67,7 @@ const App = ()=>{
       description: "Submitting Assignment",
       duedate: "2022-07-12",
       status: "Open",
-      tags: ["Progress","nice"],
+      tags: ["progress","nice"],
       key:"6"
     },
     
