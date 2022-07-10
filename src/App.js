@@ -7,7 +7,7 @@ import {
   DeleteOutlined
 } from '@ant-design/icons';
 
-function App (){
+const App = ()=>{
   
   let data = [
     {
