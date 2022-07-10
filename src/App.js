@@ -263,16 +263,17 @@ const App = ()=>{
     
     let date=`${y}-${m}-${d}`;
     console.log(date);
-    if(duedate.value<date){
-      alert(`Due date must be more than ${date}`);
-      return;
-    }
     if(title.value===""){
       alert("Title field is mandatory");
       return;
     }
     if(description.value===""){
       alert("Description field is mandatory");
+      return;
+    }
+    if(duedate.value<date){
+      alert(`Due date must be more than ${date}`);
+      return;
     }
     
     setDataSource(pre=>{
